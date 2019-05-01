@@ -167,7 +167,7 @@ public class DAOImpl implements DAO {
 	}
 
 	@Override
-	public boolean updateParticipant(int participantDTO) {
+	public boolean updateParticipant(ParticipantDTO participantDTO) {
 		
 		Connection con = null;
 		PreparedStatement pstmt = null;
@@ -178,9 +178,11 @@ public class DAOImpl implements DAO {
 			
 			String query = "update employee_table set employee_name=?, password=?, role=? where employee_id=?";
 			pstmt = con.prepareStatement(query);
-			pstmt.setInt(1, participantDTO);
-			pstmt.setInt(2, participantDTO);
-			pstmt.setInt(3, participantDTO);
+			pstmt.setString(1, participantDTO.getEmployee_name());
+			pstmt.setString(2, participantDTO.getPassword());
+			pstmt.setString(3, participantDTO.getRole());
+			pstmt.setInt(4, participantDTO.getEmployeeid());
+			
 
 			
 			int count = pstmt.executeUpdate();

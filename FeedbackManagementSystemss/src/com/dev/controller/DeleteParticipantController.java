@@ -21,6 +21,7 @@ public class DeleteParticipantController extends HttpServlet {
 		if(b)
 		{
 			System.out.println("deleted");
+			resp.sendRedirect("./ParticipantEnrollment.jsp");
 		}else
 		{
 			System.out.println("failed");

@@ -16,7 +16,7 @@ participant enrollment page
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="./ParticipantEnrollment.jsp">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a class="nav-item nav-link active" href="./TrainerHomePage.jsp">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       <a class="nav-item nav-link" href="./AddParticipant.jsp">Add Participant</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
       <a class="nav-item nav-link" href="./DeleteParticipant.jsp">Delete Participant</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
        <a class="nav-item nav-link" href="./UpdateParticipant.jsp">Update Participant</a>

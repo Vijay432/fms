@@ -11,6 +11,6 @@ public interface DAO {
 	
 	boolean deleteParticipant(int participantDTO);
 	
-	boolean updateParticipant(int participantDTO);
+	boolean updateParticipant(ParticipantDTO participantDTO);
 	
 }

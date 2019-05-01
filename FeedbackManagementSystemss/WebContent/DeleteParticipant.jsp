@@ -7,6 +7,15 @@
 <title>Delete Participant</title>
 </head>
 <body>
+<div class="navbar-nav">
+      <a class="nav-item nav-link active" href="./TrainerHomePage.jsp">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a class="nav-item nav-link" href="./AddParticipant.jsp">Add Participant</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <a class="nav-item nav-link" href="./DeleteParticipant.jsp">Delete Participant</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+       <a class="nav-item nav-link" href="./UpdateParticipant.jsp">Update Participant</a>
+     
+    </div>
+    <br>
+    <br>
 
 	<form action="./delete" method="post">
 		<p>Participant Id</p>
